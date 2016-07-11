@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ICShop-Yii
 ICShop-Yii | 基于Yii的电子商城系统
 
@@ -39,3 +40,6 @@ environments/            包含 基于环境的配置文件覆写
 tests                    包含 大量测试 为 高级 应用
     codeception/         包含 使用Codeception测试框架的测试文件
 ```
+=======
+# blog2
+>>>>>>> 5d826b7227d97ef0c8bd04b9290c1637bfee5557
