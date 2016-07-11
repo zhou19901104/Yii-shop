@@ -1,0 +1,55 @@
+{
+    "name": "itcast/yii-shop",
+    "description": "Yii商城系统",
+    "keywords": ["商城", "传智播客", "教学", "yii2"],
+    "homepage": "http://php.itcast.cn/",
+    "type": "project",
+    "license": "proprietary",
+    "support": {
+        "issues": "https://github.com/itcast-php/yii-shop/issues?state=open",
+        "source": "https://github.com/itcast-php/yii-shop",
+        "contact": "http://php.itcast.cn/"
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/su-xiaolin/yii2-actionbar"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.6",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "bower-asset/jquery": "1.11.*@stable",
+        "yzalis/identicon": "^1.1",
+        "zhuzhichao/ip-location-zh": "^1.7",
+        "yiisoft/yii2-faker": "^2.0",
+        "gregwar/captcha": "1.*",
+        "yiisoft/yii2-jui": "~2.0.0",
+        "machour/yii2-notifications": "@dev",
+        "trntv/yii2-file-kit": "^1.1",
+        "idarex/pingpp-yii2": "dev-master",
+        "xj/yii2-ueditor-widget": "~1.0.0",
+        "nterms/yii2-pagesize-widget": "*",
+        "mickgeek/yii2-actionbar": "dev-master",
+        "omnilight/yii2-shopping-cart": "*",
+        "idarex/pingpp-yii2": "dev-master",
+        "hightman/xunsearch": "*@beta"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}

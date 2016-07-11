@@ -1,0 +1,2 @@
+util/Indexer.php --rebuild --source=mysql://root:hahaha@localhost/itcast-shop --sql="SELECT * FROM product_category limit 100000" --project=shop-category
+util/Indexer.php --rebuild --source=mysql://root:hahaha@localhost/itcast-shop --sql="SELECT p.*, count(c.id) comment_count FROM product p left join comment c on p.id=c.product_id where p.status > 0 group by p.id limit 1000000" --project=shop-product --clean
